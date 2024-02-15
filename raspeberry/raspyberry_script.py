@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 from time import sleep
 import requests
 
+# @RD comment from github
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(8, GPIO.OUT, initial=GPIO.LOW)
